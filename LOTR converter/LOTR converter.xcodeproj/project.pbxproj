@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FC9A532E2A601B3800544F99 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A532D2A601B3800544F99 /* ExchangeInfo.swift */; };
 		FC9A53302A601D5B00544F99 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A532F2A601D5B00544F99 /* ExchangeRate.swift */; };
+		FC9A53322A60244800544F99 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A53312A60244800544F99 /* SelectCurrency.swift */; };
+		FC9A53342A6025C600544F99 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A53332A6025C600544F99 /* CurrencyIcon.swift */; };
+		FC9A53362A602F7700544F99 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A53352A602F7700544F99 /* Currency.swift */; };
+		FC9A53382A60371600544F99 /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A53372A60371600544F99 /* IconGrid.swift */; };
 		FCC028C62A600206002445EA /* LOTR_converterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028C52A600206002445EA /* LOTR_converterApp.swift */; };
 		FCC028C82A600206002445EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028C72A600206002445EA /* ContentView.swift */; };
 		FCC028CA2A60020D002445EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC028C92A60020D002445EA /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* Begin PBXFileReference section */
 		FC9A532D2A601B3800544F99 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
 		FC9A532F2A601D5B00544F99 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		FC9A53312A60244800544F99 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		FC9A53332A6025C600544F99 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		FC9A53352A602F7700544F99 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		FC9A53372A60371600544F99 /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		FCC028C22A600206002445EA /* LOTR converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOTR converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC028C52A600206002445EA /* LOTR_converterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTR_converterApp.swift; sourceTree = "<group>"; };
 		FCC028C72A600206002445EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				FCC028C52A600206002445EA /* LOTR_converterApp.swift */,
+				FC9A53352A602F7700544F99 /* Currency.swift */,
+				FCC028C72A600206002445EA /* ContentView.swift */,
+				FC9A53312A60244800544F99 /* SelectCurrency.swift */,
+				FC9A53372A60371600544F99 /* IconGrid.swift */,
+				FC9A53332A6025C600544F99 /* CurrencyIcon.swift */,
 				FC9A532D2A601B3800544F99 /* ExchangeInfo.swift */,
 				FC9A532F2A601D5B00544F99 /* ExchangeRate.swift */,
-				FCC028C72A600206002445EA /* ContentView.swift */,
 				FCC028C92A60020D002445EA /* Assets.xcassets */,
 				FCC028CB2A60020D002445EA /* Preview Content */,
 			);
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9A53382A60371600544F99 /* IconGrid.swift in Sources */,
 				FC9A53302A601D5B00544F99 /* ExchangeRate.swift in Sources */,
+				FC9A53322A60244800544F99 /* SelectCurrency.swift in Sources */,
 				FC9A532E2A601B3800544F99 /* ExchangeInfo.swift in Sources */,
 				FCC028C82A600206002445EA /* ContentView.swift in Sources */,
 				FCC028C62A600206002445EA /* LOTR_converterApp.swift in Sources */,
+				FC9A53362A602F7700544F99 /* Currency.swift in Sources */,
+				FC9A53342A6025C600544F99 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
