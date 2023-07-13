@@ -7,32 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC3A6F0A2A5EDEF40018AE59 /* Seventeen_AgainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F092A5EDEF40018AE59 /* Seventeen_AgainApp.swift */; };
-		FC3A6F0C2A5EDEF40018AE59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F0B2A5EDEF40018AE59 /* ContentView.swift */; };
-		FC3A6F0E2A5EDEF60018AE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A6F0D2A5EDEF60018AE59 /* Assets.xcassets */; };
-		FC3A6F112A5EDEF60018AE59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3A6F102A5EDEF60018AE59 /* Preview Assets.xcassets */; };
-		FC3A6F182A5EE9CB0018AE59 /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */; };
-		FC3A6F1A2A5EEC4D0018AE59 /* ScrollImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */; };
-		FCC028B42A5FE361002445EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028B32A5FE361002445EA /* MapView.swift */; };
-		FCC028B62A5FE6F1002445EA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028B52A5FE6F1002445EA /* Place.swift */; };
-		FCC028B82A5FF118002445EA /* VegasChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028B72A5FF118002445EA /* VegasChart.swift */; };
+		FCC028C62A600206002445EA /* LOTR_converterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028C52A600206002445EA /* LOTR_converterApp.swift */; };
+		FCC028C82A600206002445EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028C72A600206002445EA /* ContentView.swift */; };
+		FCC028CA2A60020D002445EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC028C92A60020D002445EA /* Assets.xcassets */; };
+		FCC028CD2A60020D002445EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC028CC2A60020D002445EA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC3A6F062A5EDEF40018AE59 /* Seventeen Again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seventeen Again.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3A6F092A5EDEF40018AE59 /* Seventeen_AgainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seventeen_AgainApp.swift; sourceTree = "<group>"; };
-		FC3A6F0B2A5EDEF40018AE59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FC3A6F0D2A5EDEF60018AE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC3A6F102A5EDEF60018AE59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
-		FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImage.swift; sourceTree = "<group>"; };
-		FCC028B32A5FE361002445EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		FCC028B52A5FE6F1002445EA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		FCC028B72A5FF118002445EA /* VegasChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegasChart.swift; sourceTree = "<group>"; };
+		FCC028C22A600206002445EA /* LOTR converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOTR converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC028C52A600206002445EA /* LOTR_converterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTR_converterApp.swift; sourceTree = "<group>"; };
+		FCC028C72A600206002445EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCC028C92A60020D002445EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC028CC2A60020D002445EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC3A6F032A5EDEF40018AE59 /* Frameworks */ = {
+		FCC028BF2A600206002445EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC3A6EFD2A5EDEF40018AE59 = {
+		FCC028B92A600206002445EA = {
 			isa = PBXGroup;
 			children = (
-				FC3A6F082A5EDEF40018AE59 /* Seventeen Again */,
-				FC3A6F072A5EDEF40018AE59 /* Products */,
+				FCC028C42A600206002445EA /* LOTR converter */,
+				FCC028C32A600206002445EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC3A6F072A5EDEF40018AE59 /* Products */ = {
+		FCC028C32A600206002445EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC3A6F062A5EDEF40018AE59 /* Seventeen Again.app */,
+				FCC028C22A600206002445EA /* LOTR converter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC3A6F082A5EDEF40018AE59 /* Seventeen Again */ = {
+		FCC028C42A600206002445EA /* LOTR converter */ = {
 			isa = PBXGroup;
 			children = (
-				FC3A6F092A5EDEF40018AE59 /* Seventeen_AgainApp.swift */,
-				FC3A6F0B2A5EDEF40018AE59 /* ContentView.swift */,
-				FCC028B52A5FE6F1002445EA /* Place.swift */,
-				FCC028B72A5FF118002445EA /* VegasChart.swift */,
-				FCC028B32A5FE361002445EA /* MapView.swift */,
-				FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */,
-				FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */,
-				FC3A6F0D2A5EDEF60018AE59 /* Assets.xcassets */,
-				FC3A6F0F2A5EDEF60018AE59 /* Preview Content */,
+				FCC028C52A600206002445EA /* LOTR_converterApp.swift */,
+				FCC028C72A600206002445EA /* ContentView.swift */,
+				FCC028C92A60020D002445EA /* Assets.xcassets */,
+				FCC028CB2A60020D002445EA /* Preview Content */,
 			);
-			path = "Seventeen Again";
+			path = "LOTR converter";
 			sourceTree = "<group>";
 		};
-		FC3A6F0F2A5EDEF60018AE59 /* Preview Content */ = {
+		FCC028CB2A60020D002445EA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FC3A6F102A5EDEF60018AE59 /* Preview Assets.xcassets */,
+				FCC028CC2A60020D002445EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC3A6F052A5EDEF40018AE59 /* Seventeen Again */ = {
+		FCC028C12A600206002445EA /* LOTR converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC3A6F142A5EDEF60018AE59 /* Build configuration list for PBXNativeTarget "Seventeen Again" */;
+			buildConfigurationList = FCC028D02A60020D002445EA /* Build configuration list for PBXNativeTarget "LOTR converter" */;
 			buildPhases = (
-				FC3A6F022A5EDEF40018AE59 /* Sources */,
-				FC3A6F032A5EDEF40018AE59 /* Frameworks */,
-				FC3A6F042A5EDEF40018AE59 /* Resources */,
+				FCC028BE2A600206002445EA /* Sources */,
+				FCC028BF2A600206002445EA /* Frameworks */,
+				FCC028C02A600206002445EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Seventeen Again";
-			productName = "Seventeen Again";
-			productReference = FC3A6F062A5EDEF40018AE59 /* Seventeen Again.app */;
+			name = "LOTR converter";
+			productName = "LOTR converter";
+			productReference = FCC028C22A600206002445EA /* LOTR converter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC3A6EFE2A5EDEF40018AE59 /* Project object */ = {
+		FCC028BA2A600206002445EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					FC3A6F052A5EDEF40018AE59 = {
-						CreatedOnToolsVersion = 14.2;
+					FCC028C12A600206002445EA = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = FC3A6F012A5EDEF40018AE59 /* Build configuration list for PBXProject "Seventeen Again" */;
+			buildConfigurationList = FCC028BD2A600206002445EA /* Build configuration list for PBXProject "LOTR converter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,50 +110,46 @@
 				en,
 				Base,
 			);
-			mainGroup = FC3A6EFD2A5EDEF40018AE59;
-			productRefGroup = FC3A6F072A5EDEF40018AE59 /* Products */;
+			mainGroup = FCC028B92A600206002445EA;
+			productRefGroup = FCC028C32A600206002445EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC3A6F052A5EDEF40018AE59 /* Seventeen Again */,
+				FCC028C12A600206002445EA /* LOTR converter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC3A6F042A5EDEF40018AE59 /* Resources */ = {
+		FCC028C02A600206002445EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3A6F112A5EDEF60018AE59 /* Preview Assets.xcassets in Resources */,
-				FC3A6F0E2A5EDEF60018AE59 /* Assets.xcassets in Resources */,
+				FCC028CD2A60020D002445EA /* Preview Assets.xcassets in Resources */,
+				FCC028CA2A60020D002445EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC3A6F022A5EDEF40018AE59 /* Sources */ = {
+		FCC028BE2A600206002445EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3A6F0C2A5EDEF40018AE59 /* ContentView.swift in Sources */,
-				FC3A6F0A2A5EDEF40018AE59 /* Seventeen_AgainApp.swift in Sources */,
-				FCC028B42A5FE361002445EA /* MapView.swift in Sources */,
-				FCC028B82A5FF118002445EA /* VegasChart.swift in Sources */,
-				FCC028B62A5FE6F1002445EA /* Place.swift in Sources */,
-				FC3A6F1A2A5EEC4D0018AE59 /* ScrollImage.swift in Sources */,
-				FC3A6F182A5EE9CB0018AE59 /* Scrolling.swift in Sources */,
+				FCC028C82A600206002445EA /* ContentView.swift in Sources */,
+				FCC028C62A600206002445EA /* LOTR_converterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FC3A6F122A5EDEF60018AE59 /* Debug */ = {
+		FCC028CE2A60020D002445EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -201,7 +182,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -216,19 +198,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FC3A6F132A5EDEF60018AE59 /* Release */ = {
+		FCC028CF2A60020D002445EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -261,7 +245,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -270,23 +255,23 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FC3A6F152A5EDEF60018AE59 /* Debug */ = {
+		FCC028D12A60020D002445EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Seventeen Again/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LOTR converter/Preview Content\"";
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.Seventeen-Again";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.LOTR-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		FC3A6F162A5EDEF60018AE59 /* Release */ = {
+		FCC028D22A60020D002445EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Seventeen Again/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LOTR converter/Preview Content\"";
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.Seventeen-Again";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.LOTR-converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC3A6F012A5EDEF40018AE59 /* Build configuration list for PBXProject "Seventeen Again" */ = {
+		FCC028BD2A600206002445EA /* Build configuration list for PBXProject "LOTR converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3A6F122A5EDEF60018AE59 /* Debug */,
-				FC3A6F132A5EDEF60018AE59 /* Release */,
+				FCC028CE2A60020D002445EA /* Debug */,
+				FCC028CF2A60020D002445EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC3A6F142A5EDEF60018AE59 /* Build configuration list for PBXNativeTarget "Seventeen Again" */ = {
+		FCC028D02A60020D002445EA /* Build configuration list for PBXNativeTarget "LOTR converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC3A6F152A5EDEF60018AE59 /* Debug */,
-				FC3A6F162A5EDEF60018AE59 /* Release */,
+				FCC028D12A60020D002445EA /* Debug */,
+				FCC028D22A60020D002445EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC3A6EFE2A5EDEF40018AE59 /* Project object */;
+	rootObject = FCC028BA2A600206002445EA /* Project object */;
 }
