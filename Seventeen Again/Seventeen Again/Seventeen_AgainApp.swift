@@ -13,5 +13,6 @@ struct Seventeen_AgainApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Place.self)
     }
 }

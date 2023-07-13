@@ -14,6 +14,7 @@
 		FC3A6F182A5EE9CB0018AE59 /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */; };
 		FC3A6F1A2A5EEC4D0018AE59 /* ScrollImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */; };
 		FCC028B42A5FE361002445EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028B32A5FE361002445EA /* MapView.swift */; };
+		FCC028B62A5FE6F1002445EA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC028B52A5FE6F1002445EA /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
 		FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImage.swift; sourceTree = "<group>"; };
 		FCC028B32A5FE361002445EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FCC028B52A5FE6F1002445EA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				FC3A6F092A5EDEF40018AE59 /* Seventeen_AgainApp.swift */,
 				FC3A6F0B2A5EDEF40018AE59 /* ContentView.swift */,
+				FCC028B52A5FE6F1002445EA /* Place.swift */,
 				FCC028B32A5FE361002445EA /* MapView.swift */,
 				FC3A6F172A5EE9CB0018AE59 /* Scrolling.swift */,
 				FC3A6F192A5EEC4D0018AE59 /* ScrollImage.swift */,
@@ -149,6 +152,7 @@
 				FC3A6F0C2A5EDEF40018AE59 /* ContentView.swift in Sources */,
 				FC3A6F0A2A5EDEF40018AE59 /* Seventeen_AgainApp.swift in Sources */,
 				FCC028B42A5FE361002445EA /* MapView.swift in Sources */,
+				FCC028B62A5FE6F1002445EA /* Place.swift in Sources */,
 				FC3A6F1A2A5EEC4D0018AE59 /* ScrollImage.swift in Sources */,
 				FC3A6F182A5EE9CB0018AE59 /* Scrolling.swift in Sources */,
 			);

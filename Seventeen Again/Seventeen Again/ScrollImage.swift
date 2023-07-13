@@ -26,8 +26,6 @@ struct ScrollImage: View {
     }
 }
 
-struct ScrollImage_Previews: PreviewProvider {
-    static var previews: some View {
-        ScrollImage(image: .bellagio)
-    }
+#Preview {
+    ScrollImage(image: .bellagio)
 }

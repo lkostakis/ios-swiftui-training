@@ -23,8 +23,6 @@ struct Scrolling: View {
     }
 }
 
-struct Scrolling_Previews: PreviewProvider {
-    static var previews: some View {
-        Scrolling()
-    }
+#Preview {
+    Scrolling()
 }
