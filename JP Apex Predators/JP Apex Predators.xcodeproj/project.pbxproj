@@ -12,6 +12,10 @@
 		FC725EE92A604589003D5C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC725EE82A604589003D5C9A /* Assets.xcassets */; };
 		FC725EEC2A604589003D5C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC725EEB2A604589003D5C9A /* Preview Assets.xcassets */; };
 		FC725EF32A6050C7003D5C9A /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = FC725EF22A6050C7003D5C9A /* jpapexpredators.json */; };
+		FC95E3202A60669E00D26103 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95E31F2A60669E00D26103 /* ApexPredator.swift */; };
+		FC95E3222A60678400D26103 /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95E3212A60678400D26103 /* PredatorController.swift */; };
+		FC95E3242A60706300D26103 /* PredatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95E3232A60706300D26103 /* PredatorRow.swift */; };
+		FC95E3262A60783600D26103 /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95E3252A60783600D26103 /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		FC725EE82A604589003D5C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC725EEB2A604589003D5C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC725EF22A6050C7003D5C9A /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		FC95E31F2A60669E00D26103 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		FC95E3212A60678400D26103 /* PredatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
+		FC95E3232A60706300D26103 /* PredatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorRow.swift; sourceTree = "<group>"; };
+		FC95E3252A60783600D26103 /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				FC725EE42A604587003D5C9A /* JP_Apex_PredatorsApp.swift */,
+				FC95E31F2A60669E00D26103 /* ApexPredator.swift */,
+				FC95E3212A60678400D26103 /* PredatorController.swift */,
 				FC725EE62A604587003D5C9A /* ContentView.swift */,
+				FC95E3232A60706300D26103 /* PredatorRow.swift */,
+				FC95E3252A60783600D26103 /* PredatorDetail.swift */,
 				FC725EF22A6050C7003D5C9A /* jpapexpredators.json */,
 				FC725EE82A604589003D5C9A /* Assets.xcassets */,
 				FC725EEA2A604589003D5C9A /* Preview Content */,
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC95E3222A60678400D26103 /* PredatorController.swift in Sources */,
+				FC95E3202A60669E00D26103 /* ApexPredator.swift in Sources */,
 				FC725EE72A604587003D5C9A /* ContentView.swift in Sources */,
+				FC95E3262A60783600D26103 /* PredatorDetail.swift in Sources */,
 				FC725EE52A604587003D5C9A /* JP_Apex_PredatorsApp.swift in Sources */,
+				FC95E3242A60706300D26103 /* PredatorRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +320,7 @@
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JP Predators";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
