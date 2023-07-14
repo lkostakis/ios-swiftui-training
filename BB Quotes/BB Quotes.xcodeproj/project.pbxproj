@@ -17,6 +17,7 @@
 		FC1FDDFB2A613E7500B0CF03 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDDFA2A613E7500B0CF03 /* NetworkClient.swift */; };
 		FC1FDDFD2A6149F200B0CF03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDDFC2A6149F200B0CF03 /* Constants.swift */; };
 		FC1FDDFF2A614C8F00B0CF03 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */; };
+		FC1FDE012A61518000B0CF03 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE002A61518000B0CF03 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FC1FDDFA2A613E7500B0CF03 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		FC1FDDFC2A6149F200B0CF03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FC1FDE002A61518000B0CF03 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				FC1FDDE62A612DE900B0CF03 /* BB_QuotesApp.swift */,
 				FC1FDDE82A612DE900B0CF03 /* ContentView.swift */,
+				FC1FDE002A61518000B0CF03 /* QuoteView.swift */,
 				FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */,
 				FC1FDDFA2A613E7500B0CF03 /* NetworkClient.swift */,
 				FC1FDDF62A613B7700B0CF03 /* Quote.swift */,
@@ -159,6 +162,7 @@
 				FC1FDDE92A612DE900B0CF03 /* ContentView.swift in Sources */,
 				FC1FDDFB2A613E7500B0CF03 /* NetworkClient.swift in Sources */,
 				FC1FDDF72A613B7700B0CF03 /* Quote.swift in Sources */,
+				FC1FDE012A61518000B0CF03 /* QuoteView.swift in Sources */,
 				FC1FDDE72A612DE900B0CF03 /* BB_QuotesApp.swift in Sources */,
 				FC1FDDF92A613BD400B0CF03 /* Character.swift in Sources */,
 				FC1FDDFD2A6149F200B0CF03 /* Constants.swift in Sources */,
