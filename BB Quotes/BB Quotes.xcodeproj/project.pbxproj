@@ -18,6 +18,7 @@
 		FC1FDDFD2A6149F200B0CF03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDDFC2A6149F200B0CF03 /* Constants.swift */; };
 		FC1FDDFF2A614C8F00B0CF03 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */; };
 		FC1FDE012A61518000B0CF03 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE002A61518000B0CF03 /* QuoteView.swift */; };
+		FC1FDE032A617BFA00B0CF03 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE022A617BFA00B0CF03 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		FC1FDDFC2A6149F200B0CF03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		FC1FDE002A61518000B0CF03 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		FC1FDE022A617BFA00B0CF03 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				FC1FDDE62A612DE900B0CF03 /* BB_QuotesApp.swift */,
 				FC1FDDE82A612DE900B0CF03 /* ContentView.swift */,
 				FC1FDE002A61518000B0CF03 /* QuoteView.swift */,
+				FC1FDE022A617BFA00B0CF03 /* CharacterView.swift */,
 				FC1FDDFE2A614C8F00B0CF03 /* ViewModel.swift */,
 				FC1FDDFA2A613E7500B0CF03 /* NetworkClient.swift */,
 				FC1FDDF62A613B7700B0CF03 /* Quote.swift */,
@@ -165,6 +168,7 @@
 				FC1FDE012A61518000B0CF03 /* QuoteView.swift in Sources */,
 				FC1FDDE72A612DE900B0CF03 /* BB_QuotesApp.swift in Sources */,
 				FC1FDDF92A613BD400B0CF03 /* Character.swift in Sources */,
+				FC1FDE032A617BFA00B0CF03 /* CharacterView.swift in Sources */,
 				FC1FDDFD2A6149F200B0CF03 /* Constants.swift in Sources */,
 				FC1FDDFF2A614C8F00B0CF03 /* ViewModel.swift in Sources */,
 			);
@@ -298,11 +302,13 @@
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,11 +333,13 @@
 				DEVELOPMENT_TEAM = X9HT4KTNL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
