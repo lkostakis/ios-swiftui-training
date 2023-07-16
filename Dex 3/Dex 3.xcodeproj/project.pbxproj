@@ -15,6 +15,7 @@
 		FCAF6D202A63F64700B67040 /* Dex_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D1E2A63F64700B67040 /* Dex_3.xcdatamodeld */; };
 		FCAF6D222A64142C00B67040 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D212A64142C00B67040 /* TempPokemon.swift */; };
 		FCAF6D242A64403300B67040 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D232A64403300B67040 /* Networking.swift */; };
+		FCAF6D262A64635000B67040 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D252A64635000B67040 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FCAF6D1F2A63F64700B67040 /* Dex_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex_3.xcdatamodel; sourceTree = "<group>"; };
 		FCAF6D212A64142C00B67040 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		FCAF6D232A64403300B67040 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		FCAF6D252A64635000B67040 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FC1FDE2C2A619C1400B0CF03 /* ContentView.swift */,
 				FCAF6D212A64142C00B67040 /* TempPokemon.swift */,
 				FCAF6D232A64403300B67040 /* Networking.swift */,
+				FCAF6D252A64635000B67040 /* PokemonViewModel.swift */,
 				FC1FDE332A619C1600B0CF03 /* Persistence.swift */,
 				FCAF6D1E2A63F64700B67040 /* Dex_3.xcdatamodeld */,
 				FC1FDE2E2A619C1600B0CF03 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				FC1FDE342A619C1600B0CF03 /* Persistence.swift in Sources */,
 				FCAF6D202A63F64700B67040 /* Dex_3.xcdatamodeld in Sources */,
 				FCAF6D222A64142C00B67040 /* TempPokemon.swift in Sources */,
+				FCAF6D262A64635000B67040 /* PokemonViewModel.swift in Sources */,
 				FCAF6D242A64403300B67040 /* Networking.swift in Sources */,
 				FC1FDE2D2A619C1400B0CF03 /* ContentView.swift in Sources */,
 				FC1FDE2B2A619C1400B0CF03 /* Dex_3App.swift in Sources */,
