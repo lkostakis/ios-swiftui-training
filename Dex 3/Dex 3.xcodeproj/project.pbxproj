@@ -12,7 +12,9 @@
 		FC1FDE2F2A619C1600B0CF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1FDE2E2A619C1600B0CF03 /* Assets.xcassets */; };
 		FC1FDE322A619C1600B0CF03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1FDE312A619C1600B0CF03 /* Preview Assets.xcassets */; };
 		FC1FDE342A619C1600B0CF03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE332A619C1600B0CF03 /* Persistence.swift */; };
-		FC1FDE372A619C1600B0CF03 /* Dex_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC1FDE352A619C1600B0CF03 /* Dex_3.xcdatamodeld */; };
+		FCAF6D202A63F64700B67040 /* Dex_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D1E2A63F64700B67040 /* Dex_3.xcdatamodeld */; };
+		FCAF6D222A64142C00B67040 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D212A64142C00B67040 /* TempPokemon.swift */; };
+		FCAF6D242A64403300B67040 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF6D232A64403300B67040 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +24,9 @@
 		FC1FDE2E2A619C1600B0CF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1FDE312A619C1600B0CF03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC1FDE332A619C1600B0CF03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		FC1FDE362A619C1600B0CF03 /* Dex_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex_3.xcdatamodel; sourceTree = "<group>"; };
+		FCAF6D1F2A63F64700B67040 /* Dex_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex_3.xcdatamodel; sourceTree = "<group>"; };
+		FCAF6D212A64142C00B67040 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
+		FCAF6D232A64403300B67040 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 			children = (
 				FC1FDE2A2A619C1400B0CF03 /* Dex_3App.swift */,
 				FC1FDE2C2A619C1400B0CF03 /* ContentView.swift */,
-				FC1FDE2E2A619C1600B0CF03 /* Assets.xcassets */,
+				FCAF6D212A64142C00B67040 /* TempPokemon.swift */,
+				FCAF6D232A64403300B67040 /* Networking.swift */,
 				FC1FDE332A619C1600B0CF03 /* Persistence.swift */,
-				FC1FDE352A619C1600B0CF03 /* Dex_3.xcdatamodeld */,
+				FCAF6D1E2A63F64700B67040 /* Dex_3.xcdatamodeld */,
+				FC1FDE2E2A619C1600B0CF03 /* Assets.xcassets */,
 				FC1FDE302A619C1600B0CF03 /* Preview Content */,
 			);
 			path = "Dex 3";
@@ -144,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1FDE342A619C1600B0CF03 /* Persistence.swift in Sources */,
-				FC1FDE372A619C1600B0CF03 /* Dex_3.xcdatamodeld in Sources */,
+				FCAF6D202A63F64700B67040 /* Dex_3.xcdatamodeld in Sources */,
+				FCAF6D222A64142C00B67040 /* TempPokemon.swift in Sources */,
+				FCAF6D242A64403300B67040 /* Networking.swift in Sources */,
 				FC1FDE2D2A619C1400B0CF03 /* ContentView.swift in Sources */,
 				FC1FDE2B2A619C1400B0CF03 /* Dex_3App.swift in Sources */,
 			);
@@ -349,12 +357,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FC1FDE352A619C1600B0CF03 /* Dex_3.xcdatamodeld */ = {
+		FCAF6D1E2A63F64700B67040 /* Dex_3.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FC1FDE362A619C1600B0CF03 /* Dex_3.xcdatamodel */,
+				FCAF6D1F2A63F64700B67040 /* Dex_3.xcdatamodel */,
 			);
-			currentVersion = FC1FDE362A619C1600B0CF03 /* Dex_3.xcdatamodel */;
+			currentVersion = FCAF6D1F2A63F64700B67040 /* Dex_3.xcdatamodel */;
 			path = Dex_3.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
