@@ -50,6 +50,10 @@ struct PokemonDetail: View {
 
             Text("Stats")
                 .font(.title)
+                .padding(.bottom, -7)
+
+            Stats()
+                .environmentObject(pokemon)
 
         }
         .navigationTitle(pokemon.name!.capitalized)
