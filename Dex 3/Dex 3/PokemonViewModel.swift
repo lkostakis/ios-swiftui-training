@@ -33,7 +33,11 @@ class PokemonViewModel: ObservableObject {
         status = .fetching
 
         do {
-            var pokedex = try await httpClient.fetchAllPokemon()
+            guard var pokedex = try await httpClient.fetchAllPokemon() else {
+                print("Loading Pokemon from database.")
+                status = .success
+                return
+            }
 
             pokedex.sort { $0.id < $1.id }
 
