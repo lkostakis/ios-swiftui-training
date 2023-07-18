@@ -45,6 +45,20 @@ struct PokemonDetail: View {
                         .cornerRadius(50)
                 }
                 Spacer()
+
+                Button {
+                    withAnimation {
+                        pokemon.favorite.toggle()
+                    }
+                } label: {
+                    if pokemon.favorite {
+                        Image(systemName: "star.fill")
+                    } else {
+                        Image(systemName: "star")
+                    }
+                }
+                .font(.largeTitle)
+                .foregroundColor(.yellow)
             }
             .padding()
 
