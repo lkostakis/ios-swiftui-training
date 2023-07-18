@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+    
     @StateObject private var pokemonVM = PokemonViewModel(httpClient: Networking())
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Pokemon.id, ascending: true)],
