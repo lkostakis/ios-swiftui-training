@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0313C42A740BE100D5D611 /* HP_TriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0313C32A740BE100D5D611 /* HP_TriviaApp.swift */; };
+		FC0313C62A740BE100D5D611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0313C52A740BE100D5D611 /* ContentView.swift */; };
+		FC0313C82A740BE500D5D611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0313C72A740BE500D5D611 /* Assets.xcassets */; };
+		FC0313CB2A740BE500D5D611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0313CA2A740BE500D5D611 /* Preview Assets.xcassets */; };
+		FC0313D22A740D7E00D5D611 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D12A740D7E00D5D611 /* trivia.json */; };
+		FC0313DB2A740D9900D5D611 /* negative-beeps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D32A740D9800D5D611 /* negative-beeps.mp3 */; };
+		FC0313DC2A740D9900D5D611 /* magic-in-the-air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D42A740D9800D5D611 /* magic-in-the-air.mp3 */; };
+		FC0313DD2A740D9900D5D611 /* let-the-mystery-unfold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D52A740D9800D5D611 /* let-the-mystery-unfold.mp3 */; };
+		FC0313DE2A740D9900D5D611 /* magic-wand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D62A740D9800D5D611 /* magic-wand.mp3 */; };
+		FC0313DF2A740D9900D5D611 /* page-flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D72A740D9800D5D611 /* page-flip.mp3 */; };
+		FC0313E02A740D9900D5D611 /* deep-in-the-dell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */; };
+		FC0313E12A740D9900D5D611 /* spellcraft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D92A740D9900D5D611 /* spellcraft.mp3 */; };
+		FC0313E22A740D9900D5D611 /* hiding-place-in-the-forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313DA2A740D9900D5D611 /* hiding-place-in-the-forest.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0313C02A740BE100D5D611 /* HP Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0313C32A740BE100D5D611 /* HP_TriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_TriviaApp.swift; sourceTree = "<group>"; };
+		FC0313C52A740BE100D5D611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC0313C72A740BE500D5D611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC0313CA2A740BE500D5D611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC0313D12A740D7E00D5D611 /* trivia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trivia.json; sourceTree = "<group>"; };
+		FC0313D32A740D9800D5D611 /* negative-beeps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "negative-beeps.mp3"; sourceTree = "<group>"; };
+		FC0313D42A740D9800D5D611 /* magic-in-the-air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-in-the-air.mp3"; sourceTree = "<group>"; };
+		FC0313D52A740D9800D5D611 /* let-the-mystery-unfold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "let-the-mystery-unfold.mp3"; sourceTree = "<group>"; };
+		FC0313D62A740D9800D5D611 /* magic-wand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-wand.mp3"; sourceTree = "<group>"; };
+		FC0313D72A740D9800D5D611 /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
+		FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deep-in-the-dell.mp3"; sourceTree = "<group>"; };
+		FC0313D92A740D9900D5D611 /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
+		FC0313DA2A740D9900D5D611 /* hiding-place-in-the-forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hiding-place-in-the-forest.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0313BD2A740BE100D5D611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0313B72A740BE100D5D611 = {
+			isa = PBXGroup;
+			children = (
+				FC0313C22A740BE100D5D611 /* HP Trivia */,
+				FC0313C12A740BE100D5D611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0313C12A740BE100D5D611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0313C02A740BE100D5D611 /* HP Trivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0313C22A740BE100D5D611 /* HP Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				FC0313C32A740BE100D5D611 /* HP_TriviaApp.swift */,
+				FC0313C52A740BE100D5D611 /* ContentView.swift */,
+				FC0313C72A740BE500D5D611 /* Assets.xcassets */,
+				FC0313D12A740D7E00D5D611 /* trivia.json */,
+				FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */,
+				FC0313DA2A740D9900D5D611 /* hiding-place-in-the-forest.mp3 */,
+				FC0313D52A740D9800D5D611 /* let-the-mystery-unfold.mp3 */,
+				FC0313D42A740D9800D5D611 /* magic-in-the-air.mp3 */,
+				FC0313D62A740D9800D5D611 /* magic-wand.mp3 */,
+				FC0313D32A740D9800D5D611 /* negative-beeps.mp3 */,
+				FC0313D72A740D9800D5D611 /* page-flip.mp3 */,
+				FC0313D92A740D9900D5D611 /* spellcraft.mp3 */,
+				FC0313C92A740BE500D5D611 /* Preview Content */,
+			);
+			path = "HP Trivia";
+			sourceTree = "<group>";
+		};
+		FC0313C92A740BE500D5D611 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC0313CA2A740BE500D5D611 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0313BF2A740BE100D5D611 /* HP Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0313CE2A740BE500D5D611 /* Build configuration list for PBXNativeTarget "HP Trivia" */;
+			buildPhases = (
+				FC0313BC2A740BE100D5D611 /* Sources */,
+				FC0313BD2A740BE100D5D611 /* Frameworks */,
+				FC0313BE2A740BE100D5D611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HP Trivia";
+			productName = "HP Trivia";
+			productReference = FC0313C02A740BE100D5D611 /* HP Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0313B82A740BE100D5D611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FC0313BF2A740BE100D5D611 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FC0313BB2A740BE100D5D611 /* Build configuration list for PBXProject "HP Trivia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0313B72A740BE100D5D611;
+			productRefGroup = FC0313C12A740BE100D5D611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0313BF2A740BE100D5D611 /* HP Trivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0313BE2A740BE100D5D611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0313DF2A740D9900D5D611 /* page-flip.mp3 in Resources */,
+				FC0313CB2A740BE500D5D611 /* Preview Assets.xcassets in Resources */,
+				FC0313DE2A740D9900D5D611 /* magic-wand.mp3 in Resources */,
+				FC0313DC2A740D9900D5D611 /* magic-in-the-air.mp3 in Resources */,
+				FC0313DD2A740D9900D5D611 /* let-the-mystery-unfold.mp3 in Resources */,
+				FC0313C82A740BE500D5D611 /* Assets.xcassets in Resources */,
+				FC0313E02A740D9900D5D611 /* deep-in-the-dell.mp3 in Resources */,
+				FC0313E22A740D9900D5D611 /* hiding-place-in-the-forest.mp3 in Resources */,
+				FC0313D22A740D7E00D5D611 /* trivia.json in Resources */,
+				FC0313E12A740D9900D5D611 /* spellcraft.mp3 in Resources */,
+				FC0313DB2A740D9900D5D611 /* negative-beeps.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0313BC2A740BE100D5D611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0313C62A740BE100D5D611 /* ContentView.swift in Sources */,
+				FC0313C42A740BE100D5D611 /* HP_TriviaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC0313CC2A740BE500D5D611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC0313CD2A740BE500D5D611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0313CF2A740BE500D5D611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HP Trivia/Preview Content\"";
+				DEVELOPMENT_TEAM = X9HT4KTNL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.HP-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0313D02A740BE500D5D611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HP Trivia/Preview Content\"";
+				DEVELOPMENT_TEAM = X9HT4KTNL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lkostakis.HP-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0313BB2A740BE100D5D611 /* Build configuration list for PBXProject "HP Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0313CC2A740BE500D5D611 /* Debug */,
+				FC0313CD2A740BE500D5D611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0313CE2A740BE500D5D611 /* Build configuration list for PBXNativeTarget "HP Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0313CF2A740BE500D5D611 /* Debug */,
+				FC0313D02A740BE500D5D611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0313B82A740BE100D5D611 /* Project object */;
+}
