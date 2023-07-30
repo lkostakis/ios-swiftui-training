@@ -20,6 +20,7 @@
 		FC0313E02A740D9900D5D611 /* deep-in-the-dell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */; };
 		FC0313E12A740D9900D5D611 /* spellcraft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313D92A740D9900D5D611 /* spellcraft.mp3 */; };
 		FC0313E22A740D9900D5D611 /* hiding-place-in-the-forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC0313DA2A740D9900D5D611 /* hiding-place-in-the-forest.mp3 */; };
+		FC7278AA2A751F9D00D16303 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7278A92A751F9D00D16303 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deep-in-the-dell.mp3"; sourceTree = "<group>"; };
 		FC0313D92A740D9900D5D611 /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
 		FC0313DA2A740D9900D5D611 /* hiding-place-in-the-forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hiding-place-in-the-forest.mp3"; sourceTree = "<group>"; };
+		FC7278A92A751F9D00D16303 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				FC0313C32A740BE100D5D611 /* HP_TriviaApp.swift */,
 				FC0313C52A740BE100D5D611 /* ContentView.swift */,
+				FC7278A92A751F9D00D16303 /* Constants.swift */,
 				FC0313C72A740BE500D5D611 /* Assets.xcassets */,
 				FC0313D12A740D7E00D5D611 /* trivia.json */,
 				FC0313D82A740D9900D5D611 /* deep-in-the-dell.mp3 */,
@@ -175,6 +178,7 @@
 			files = (
 				FC0313C62A740BE100D5D611 /* ContentView.swift in Sources */,
 				FC0313C42A740BE100D5D611 /* HP_TriviaApp.swift in Sources */,
+				FC7278AA2A751F9D00D16303 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
